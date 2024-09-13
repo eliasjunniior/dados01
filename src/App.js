@@ -37,7 +37,7 @@ const DiceGame = () => {
     setTotalGames(totalGames + 1);
 
     if (sum === 7 || sum === 11) {
-      setMessage('Parabéns, você ganhou!!!!!!!!');
+      setMessage('Parabéns, você ganhou!');
       setMessageColor('green');
       setWins(wins + 1);
     } else {
